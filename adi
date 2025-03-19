@@ -71,7 +71,7 @@
             <li class="pending">¡Listo! 🐾</li>
         </ul>
         <p>¡Estamos cuidando de tu peludito con mucho amor! ❤️</p>
-        <a href="https://wa.me/?text=¡Hola! Aquí puedes ver el estado del servicio de tu mascota: [ENLACE]" class="whatsapp-btn">Enviar por WhatsApp</a>
+        <a href="https://wa.me/?text=¡Hola! Aquí puedes ver el estado del servicio de tu mascota: [https://github.com/carlosesla/status-peludos/settings/pages]" class="whatsapp-btn">Enviar por WhatsApp</a>
     </div>
 </body>
 </html>
