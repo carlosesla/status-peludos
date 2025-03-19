@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado de tu Mascota</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f3ef;
+            color: #4a4a4a;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .status {
+            list-style: none;
+            padding: 0;
+        }
+        .status li {
+            padding: 10px;
+            border-bottom: 2px solid #e0dcd5;
+        }
+        .completed {
+            background-color: #e6f5e8;
+            color: #4caf50;
+            font-weight: bold;
+        }
+        .pending {
+            background-color: #fef5e6;
+            color: #e09f3e;
+        }
+        .photo {
+            margin: 15px 0;
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🐶 Estado de tu Mascota</h2>
+        <img src="foto_mascota.jpg" alt="Foto de tu mascota" class="photo">
+        <ul class="status">
+            <li class="completed">Preparación ✅</li>
+            <li class="completed">Baño ✅</li>
+            <li class="pending">Secado ⏳</li>
+            <li class="pending">Cepillado ⏳</li>
+            <li class="pending">Corte ⏳</li>
+            <li class="pending">¡Listo! 🐾</li>
+        </ul>
+        <p>¡Estamos cuidando de tu peludito con mucho amor! ❤️</p>
+        <a href="https://wa.me/?text=¡Hola! Aquí puedes ver el estado del servicio de tu mascota: [ENLACE]" class="whatsapp-btn">Enviar por WhatsApp</a>
+    </div>
+</body>
+</html>
